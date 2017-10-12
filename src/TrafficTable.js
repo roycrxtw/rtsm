@@ -6,7 +6,7 @@ import './TrafficTable.css';
 export default class TrafficTable extends Component {
   getTrafficTable = () => {
     if(!this.props.data){
-      return (<div id='trafficTable'>No data</div>);
+      return (<div id='trafficTable'></div>);
     }
 
     let content = (
