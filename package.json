@@ -1,0 +1,26 @@
+{
+  "name": "rtsm",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://royvbtw.github.io/rtsm",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/royvbtw/rtsm.git"
+  },
+  "dependencies": {
+    "gh-pages": "^1.0.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.14",
+    "react-scroll": "^1.5.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}

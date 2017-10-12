@@ -1,0 +1,15 @@
+{
+  "short_name": "RTSM",
+  "name": "the RTSM",
+  "icons": [
+    {
+      "src": "icon-main.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./",
+  "display": "standalone",
+  "theme_color": "#222",
+  "background_color": "#222"
+}
