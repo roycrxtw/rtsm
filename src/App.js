@@ -33,7 +33,8 @@ function Footer(props){
   return (
     <footer>
       <hr/>
-      RTSM Project T1117. By <a href='https://royvbtw.uk'>Roy Lu</a>, royvbtw@github #Oct, 2017
+      RTSM Project T0300 2017. 
+      by <a href='https://royvbtw.uk'>Roy Lu</a>, <a href='https://github.com/royvbtw/rtsm'>royvbtw@github</a>
     </footer>
   );
 }
