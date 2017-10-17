@@ -4,7 +4,7 @@
 }
 
 a{
-	color: violet;
+	color: wheat;
 	text-decoration: none;
 	transition: all 700ms;
 }
@@ -13,7 +13,7 @@ a:hover{
 }
 
 body{
-	background: snow ;
+	background: snow;
 	margin: 0px;
 	padding: 0px;
 	
@@ -22,8 +22,12 @@ body{
 }
 
 footer{
+	margin: 0 0 40px 0;
+	padding: 40px 20px 40px 20px;
+	background-color: #222;
+
+	color: grey;
 	text-align: center;
-	margin-bottom: 70px;
 }
 
 select{
@@ -46,7 +50,7 @@ select{
 	width: 100%;
 	background-color: peru;
 }
-@media only screen and (min-width: 720px){
+@media (min-width: 720px){
 	.app-title{
 		position: absolute;
 		width: 410px;
@@ -215,7 +219,11 @@ select{
   /* background-color: #222; */
 	padding: 20px;
 	margin: 0px auto;
-	
+}
+@media (min-width: 1280px){
+	.menu-container{
+		padding: 40px;
+	}
 }
 
 .main-block{
@@ -389,22 +397,6 @@ select{
 		right: 20px;
 		bottom: 20px;
 		border-radius: 35px;
-	}
-}
-
-
-#trafficTable{
-	display: table;
-	margin: 20px auto;
-	width: 90%;
-	background-color: snow;
-	cursor: pointer;
-	border: 0px solid blue;
-	font-size: 1rem;
-}
-@media only screen and (min-width: 720px){
-	#trafficTable{
-		width: 60%;
 	}
 }
 

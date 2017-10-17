@@ -32,8 +32,7 @@ function Demo(props){
 function Footer(props){
   return (
     <footer>
-      <hr/>
-      RTSM Project T0300 2017. 
+      RTSM Project T2109 2017. 
       by <a href='https://royvbtw.uk'>Roy Lu</a>, <a href='https://github.com/royvbtw/rtsm'>royvbtw@github</a>
     </footer>
   );
@@ -179,10 +178,10 @@ export default class App extends Component {
 
         <Element name='tableAnchor'></Element>
         <TrafficTable data={this.state.trafficData} />
+        <Footer />
         <div id='btnRefresh' onClick={this.refreshPage}>
           {(this.state.isLoading)? 'loading': 'Refresh'}
         </div>
-        <Footer />
       </div>
     );
   }
